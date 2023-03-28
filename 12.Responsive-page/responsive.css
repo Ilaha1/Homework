@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*Header*/
+nav {
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding: 10px 20px;
+}
+
+nav ul li:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    padding: 20px 0;
+}
+header .menu {
+    display: none;
+
+
+}
+
+/*Body*/
+.body {
+    background-image: url(./images/IMG-20230327-WA0005.jpg);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.line {
+    border: 2px solid darkgreen;
+    width: 40px;
+    margin: 0 auto;
+
+}
+
+h3,
+p {
+    text-align: center;
+
+}
+
+.Front {
+    color: brown;
+    text-shadow: 3px 3px yellow;
+}
+
+/*Section-2*/
+.section-2 {
+    background-image: url(./images/11.\ Закат.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/*Section-3*/
+h1 {
+    text-align: center;
+}
+
+.section-3 .boxes {
+    height: 130vh;
+    border: 2px solid yellowgreen;
+    position: relative;
+}
+
+.boxes .box {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+
+}
+
+.boxes .box1 {
+    background-color: brown;
+    position: absolute;
+    left: 45%;
+    top: 48%;
+    z-index: 5;
+
+}
+
+.boxes .box2 {
+    background-color: rgb(61, 58, 58);
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 3;
+}
+
+.boxes .box3 {
+    background-color: rgb(17, 17, 121);
+    position: absolute;
+    left: 40%;
+    top: 65%;
+    z-index: 4;
+}
+
+.boxes .box4 {
+    background-color: rgb(212, 212, 135);
+    position: absolute;
+    left: 48%;
+    top: 67%;
+    z-index: 3;
+}
+
+.boxes .box5 {
+    background-color: rgb(27, 95, 27);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+}
+
+/*Media*/
+@media only screen and (max-width:767px) {
+
+    nav ul li{
+        display: none;
+    }
+    nav ul .home{
+        display: block;
+    }
+    header .menu {
+        display: block;
+    
+    }
+    }
+
+    .body{
+        display: none;
+    }
+    .img {
+        height: 70vh;
+        background-image: url(./images/IMG-20230327-WA0006.jpg);
+        background-size: cover;
+    }
+    
+}
