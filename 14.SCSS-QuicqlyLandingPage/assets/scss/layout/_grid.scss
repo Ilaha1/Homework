@@ -1,0 +1,18 @@
+.container{
+   height: 100vh;
+      
+ 
+    .team{
+  display: flex;
+  justify-content: space-around;
+    }
+    .text{
+       justify-content: center;
+       align-items: center;
+ 
+    }
+    .icons{
+        gap: 20px ;
+    }
+
+}

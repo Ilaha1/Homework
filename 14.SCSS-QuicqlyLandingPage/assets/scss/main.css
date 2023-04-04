@@ -50,4 +50,66 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.header {
+  max-width: 1392px;
+  margin: 0;
+  padding: 0 auto;
+}
+.header nav {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  background-color: #20484F;
+}
+.header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header nav ul h4 {
+  color: #ffffff;
+}
+.header nav ul li {
+  color: #ffffff;
+}
+.header .hero-info {
+  display: flex;
+}
+
+.container {
+  height: 100vh;
+}
+.container .team {
+  display: flex;
+  justify-content: space-around;
+}
+.container .text {
+  justify-content: center;
+  align-items: center;
+}
+.container .icons {
+  gap: 20px;
+}
+
+.container {
+  margin: 0;
+  padding: 0 auto;
+  list-style: none;
+  height: 100vh;
+}
+.container .footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #20484F;
+  color: #ffffff;
+  height: 100vh;
+}
+.container .quickly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }/*# sourceMappingURL=main.css.map */

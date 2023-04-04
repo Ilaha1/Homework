@@ -1,4 +1,37 @@
-.header{
-   background-color: aqua;
+.header {
+   max-width: 1392px;
+   margin: 0;
+   padding: 0 auto;
+
+   nav {
+      height: 10vh;
+      width: 100%;
+      position: fixed;
+      background-color: $primary_color;
+      
+
+      ul {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+        
+         h4 {
+            color: $text_color;
+         }
+
+         li {
+
+            color: $text_color;
+         }
+      }
+      
+   }
+
+ .hero-info{
+   display: flex;
    
+ }
+
+
+
 }
