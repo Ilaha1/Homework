@@ -1,0 +1,26 @@
+.container{
+   
+    .hero-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+   .button{
+    display: flex;
+    gap: 20px;
+   }
+   .sign-up{
+    width: 136px;
+    height: 58px;
+    border: none;
+   }
+
+   @media only screen and (max-width767px){
+    flex-direction: column;
+
+    .hero-image{
+        width: 100%;
+    }
+   }
+}

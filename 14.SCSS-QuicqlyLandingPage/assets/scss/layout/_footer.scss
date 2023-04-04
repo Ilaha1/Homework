@@ -1,15 +1,15 @@
 .container{
     margin: 0;
-    padding: 0 auto;
+padding: 0 auto;
     list-style: none;
-        height: 100vh;
+        
   .footer{
     display: flex;
     justify-content:space-around;
     align-items: center;
   background-color: $primary_color;
   color: #DCF2ED;
-  height: 100vh;
+  
   }
   .quickly{
     display: flex;
@@ -17,7 +17,22 @@
     align-items: center;
     color: white;
   }
-    .choose {
-      display: flex;
+    .select {
+     
+      font-size: 16px;
+      font-family: Plus Jakarta Sans;
+     
+      .btn{
+        position: static;
+      }
+      h3{
+        font-size:32px ;
+         font-family:  "Jakarta Sans";
+         margin-bottom: 30px;
+      }
+      .checkbox{
+          font-size: 32px;
+      }
+
     }
 }

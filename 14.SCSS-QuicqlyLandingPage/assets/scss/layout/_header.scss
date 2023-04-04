@@ -3,35 +3,79 @@
    margin: 0;
    padding: 0 auto;
 
-   nav {
-      height: 10vh;
-      width: 100%;
-      position: fixed;
+   .navbar {
+      height: 75px;
       background-color: $primary_color;
-      
+      position: fixed;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-      ul {
-         display: flex;
-         justify-content: space-around;
-         align-items: center;
-        
-         h4 {
-            color: $text_color;
-         }
-
-         li {
-
-            color: $text_color;
-         }
+      h4 {
+         color: $text_color;
+         font-size: 24px;
+         line-height: 30px;
+         font-weight: 700;
       }
+
+      nav {
+         ul {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            li {
+               color: $text_color;
+            }
+         }
+
+      }
+
+      .menu {
+         color: azure;
+         display: none;
+      }
+
+      .button {
+         width: 82px;
+         height: 41px;
+         border: none;
+         border-radius: 8px;
+         background-color: $primary-light;
+      }
+       .sign-up{
+         width: 70px;
+         height: 41px;
+         background-color: transparent;
+         color: antiquewhite;
+         border: none;
+       }
+
+             @media only screen and (max-width:767px) {
+                .navbar {
+                   nav {
+                      ul {
+                         li {
       
+                            display: none;
+                         }
+                      }
+                   }
+      
+                   .button {
+      
+                      .sign-up,
+                      .log-in {
+                         display: none;
+                      }
+                   }
+      
+                   .menu {
+                      display: block;
+                   }
+                }
+             }
    }
-
- .hero-info{
-   display: flex;
-   
- }
-
-
 
 }

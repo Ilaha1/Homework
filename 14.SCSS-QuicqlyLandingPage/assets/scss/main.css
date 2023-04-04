@@ -52,64 +52,107 @@ table {
   border-spacing: 0;
 }
 
+h4 {
+  font-size: 24px;
+  font-family: "Plus Jakarta Sans";
+}
+
+p {
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans";
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Plus Jakarta Sans";
+}
+
 .header {
   max-width: 1392px;
   margin: 0;
   padding: 0 auto;
 }
-.header nav {
-  height: 10vh;
-  width: 100%;
-  position: fixed;
+.header .navbar {
+  height: 75px;
   background-color: #20484F;
-}
-.header nav ul {
+  position: fixed;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
-.header nav ul h4 {
-  color: #ffffff;
+.header .navbar h4 {
+  color: #DCF2ED;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
 }
-.header nav ul li {
-  color: #ffffff;
-}
-.header .hero-info {
+.header .navbar nav ul {
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
-
-.container {
-  height: 100vh;
+.header .navbar nav ul li {
+  color: #DCF2ED;
 }
 .container .team {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+.container .team .icons {
+  margin-top: 8px;
+  border-radius: 50%;
+}
+.container .team .icons img {
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 .container .text {
   justify-content: center;
   align-items: center;
 }
-.container .icons {
-  gap: 20px;
+.container p {
+  margin-top: 8px;
+}
+
+section .hero-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   margin: 0;
   padding: 0 auto;
   list-style: none;
-  height: 100vh;
 }
 .container .footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #20484F;
-  color: #ffffff;
-  height: 100vh;
+  color: #DCF2ED;
 }
 .container .quickly {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+}
+.container .select {
+  font-size: 16px;
+  font-family: Plus Jakarta Sans;
+}
+.container .select h3 {
+  font-size: 32px;
+  font-family: "Jakarta Sans";
+  margin-bottom: 30px;
+}
+.container .select .checkbox {
+  font-size: 32px;
 }/*# sourceMappingURL=main.css.map */
